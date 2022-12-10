@@ -1,0 +1,45 @@
+ul {
+  list-style: none;
+  background-color: #21212D;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li + li {
+  margin-top: 1rem;
+  border-top: 2px solid #2B2C33;
+  padding-top: 1rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-right: auto;
+  max-width: 95%;
+}
+
+.check {
+  width: 2rem;
+  height: 2rem;
+}
+
+.check + span {
+  max-width: 95%;
+}
+
+.iconDelete {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.iconDelete:hover {
+  color: #0374FF;
+}

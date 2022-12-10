@@ -1,0 +1,36 @@
+.input {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .2rem;
+}
+
+.addTask {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2b2c33;
+  padding: .8rem 1rem;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #2b2c33;
+  padding: .9rem 2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+  color: #fff;
+  transition: all .5s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #2b2c33;
+}
