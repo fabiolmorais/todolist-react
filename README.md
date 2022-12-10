@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Projeto TODO list
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto feito em React com finalidade de criar um todolist app e praticar conhecimentos adquiridos em React.
+
+Tecnologias:
+- ReactJS (Hooks, Componentização);
+- CSS Responsivo
+
+Funcionalidades:
+- Adicionar tarefas
+  - Adicionar tarefas com as teclas "Enter" e "EnterNumPad"
+- Excluir tarefas
+- Marcar tarefas realizadas
 
 ## Available Scripts
 
