@@ -33,6 +33,7 @@ label {
 
 .check + span {
   max-width: 95%;
+  text-decoration: line-through;
 }
 
 .iconDelete {
